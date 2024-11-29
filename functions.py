@@ -50,15 +50,15 @@
 # function_div(1,31)
 
 
-# for i in range(1,31):
-#     if i%3==0 and i%5==0:
-#         print("bizz bug")
-#     elif i%3==0:
-#            print("bugg")
-#     elif i%5==0:
-#             print("bizz")
-#     else:
-#          print(i)
+for i in range(1,31):
+    if i%3==0 and i%5==0:
+        print("bizz bug")
+    elif i%3==0:
+           print("bugg")
+    elif i%5==0:
+            print("bizz")
+    else:
+         print(i)
 
 # a=('jithin','ADARSH')
 # for a in (a):

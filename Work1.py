@@ -33,6 +33,9 @@
 # k=len(a)
 # b=int(input("enter element"))
 # for i in range (k):
+
+
+    
 #     if a[i]==b:
 #         count=count+1
 # print("The element", b, "occurs", count, "times.")    
@@ -145,7 +148,46 @@
 # plot_honeycomb(rows, cols, size)
 
 
-import random
+# import random
 
-random_number = random.randint(1, 101)
-print("The randomly picked number is:", random_number)
+# random_number = random.randint(1, 101)
+# print("The randomly picked number is:", random_number)
+
+# a=input('enter character')
+# for b in a:
+#     if a.count(b) == 1:
+#         print(b, end=" ")
+
+
+
+# str1 = "Listen"
+# str2 = "SiLeNt!!"
+
+# # Remove spaces and convert to lowercase
+# str1 = str1.replace(" ", "").lower()
+# str2 = str2.replace(" ", "").lower()
+
+# # Check if sorted characters of both strings are equal
+# if sorted(str1) == sorted(str2):
+#     print(f'"{str1}" and "{str2}" are anagrams.')
+# else:
+#     print(f'"{str1}" and "{str2}" are not anagrams.')
+
+
+s = "abcabcbb"
+char_index_map = {}  # Dictionary to store the last index of each character
+left = 0  # Left pointer of the window
+max_length = 0  # Variable to store the length of the longest substring
+
+for right in range(len(s)):
+    # If character is already in the current window, move the left pointer
+    if s[right] in char_index_map and char_index_map[s[right]] >= left:
+        left = char_index_map[s[right]] + 1
+
+    # Update the last index of the current character
+    char_index_map[s[right]] = right
+
+    # Calculate the length of the current window
+    max_length = max(max_length, right - left + 1)
+
+print(max_length)  # Output: 3

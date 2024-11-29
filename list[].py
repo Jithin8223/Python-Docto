@@ -61,7 +61,7 @@
 
 
 
-# a=['adarsh',25,'rizwan',22,.6]
+# a=['adarsh',25,'rizwan',22,.6,'jithin','jithin']
 # a.append('jithin')
 # a.insert(1,'jithin')
 # a[1]='apple'
@@ -101,16 +101,7 @@
 # print(a[::-1])         #reverse
 # print(a[1:5])         #slice
 
-# n=[]
-# a=int(input('enter the range'))
-# for i in range(a):
-#     k=input('enter the value')
-#     n.append(k)
-# print(n)
-# sum=0
-# for i in range(n):
-#     sum=sum+i
-# print(sum)
+
 
 
 
@@ -128,19 +119,19 @@
 
 
 
-# n = []  # Initialize an empty list
-# a = int(input('Enter the range: '))  # Prompt the user to enter the range
+n = []  # Initialize an empty list
+a = int(input('Enter the range: '))  # Prompt the user to enter the range
 
-# for i in range(a):
-#     k = input('Enter a string or number: ')  # Prompt the user to enter a string or number
-#     try:
-#         value = float(k) if '.' in k else int(k)
-#     except ValueError:
-#         # If conversion fails, keep the input as a string
-#         value = k
-#     n.append(value)  # Append the value to the list
+for i in range(a):
+    k = input('Enter a string or number: ')  # Prompt the user to enter a string or number
+    try:
+        value = float(k) if '.' in k else int(k)
+    except ValueError:
+        # If conversion fails, keep the input as a string
+        value = k
+    n.append(value)  # Append the value to the list
 
-# print(n)  # Print the final list
+print(n)  # Print the final list
 
 # n = []
 # a = int(input('Enter the range: '))
@@ -172,3 +163,5 @@ sum=0
 for i in (a):
     sum=sum+i
 print('Your Total is ',sum)
+
+

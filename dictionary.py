@@ -1,9 +1,10 @@
-# a={'safwan' : 23,'sifrath' : 23, 'ramiz' : 23,'jithin' :26}          
+# a={'safwan' : 23,'sifrath' : 23, 'ramiz' : 23,'jithin' :26}     
 # a.update({'adarsh':26})
-# print(a)
+# print(a)                                                                  
 # a.popitem()
-# a.pop()
+# a.pop('sifrath')
 # a['jithin']=21
+
 # print(a)
 
 # for i in a.keys():
@@ -53,14 +54,18 @@
 
 # a={'adarsh:{'name' : 'amal','num' :9876543210, 'email' : 'amal@gmail.com'},'jithin' :{'num' :1234567890,'email' :'jithin@gmail.com'},
 #    'adarsh' :{'num' :1237894560,'email' :'adarsh@gmail.com'},'shebin' :{'num' : 9988776655},'email' :'shebin@mail.com'}
+
+
+
+
 # print(a[1])
 
 # a={1:{'name' : 'amal','num' : 9876543210, 'email' : 'amal@gmail.com'},2:{'name' : 'jithin', 'num' : 9517368420,'email' : 'jithin@gmail.com'}}
-# print(a[2])
+# print(a[2]) 
 
 # # to fetch value in a dictionary 
 
-# for i in jithin.values():
+# for i in jithin.values(): 
 #     print(i)
 
 # #to  fetch keys in a dictionary
@@ -76,18 +81,17 @@
 #to update list in a empty dictionary
 
 
-a={}
-n=int(input('enter the range'))
-for i in range(n):
-    b=input('enter key')
-    c=int(input('enter value'))
-    a.update({b:c})
-print(a)
-# count=0
-sum=0
-for i in a.values():
-    sum = sum+i
-print(sum)
+# a={}
+# n=int(input('enter the range'))
+# for i in range(n):
+#     b=input('enter key')
+#     c=int(input('enter value'))
+#     a.update({b:c})
+# print(a)
+# sum=0
+# for i in a.values():
+#     sum = sum+i
+# print(sum)
 
 
   
@@ -116,3 +120,32 @@ print(sum)
 
 # a={1:{'name' : 'amal','num' : 9876543210, 'email' : 'amal@gmail.com'},2:{'name' : 'jithin', 'num' : 9517368420,'email' : 'jithin@gmail.com'}}
 # print(a[1])
+
+
+# from collections import OrderedDict
+
+# # Original dictionary
+# a = {'safwan': 23, 'sifrath': 23, 'ramiz': 23, 'jithin': 26}
+
+# # Convert to OrderedDict to insert at a specific position
+# a = OrderedDict(a)
+
+# # Convert to a list of items and insert the new key-value pair at the desired position (e.g., position 2)
+# a_list = list(a.items())
+# a_list.insert(2, ('new_key', 30))  # Insert at index 2
+
+# # Convert back to OrderedDict or dict
+# a = OrderedDict(a_list)
+
+# print(dict(a))
+
+
+# a = {'safwan': 23, 'sifrath': 23, 'ramiz': 23, 'jithin': 26}
+
+# keys = list(a.keys())
+# print(keys)
+
+
+
+
+

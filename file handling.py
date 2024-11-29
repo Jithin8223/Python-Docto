@@ -1,32 +1,31 @@
-
-# f=open('majlis.txt','x')
+# f=open('dilras.html','x')
 # f.close()
 
-# f=open('majlis.txt','w')
-# f.write(' helloo how are you')
+# f=open('dilras.txt','w')
+# f.write(' mandaatha karyam')
 # f.close()
 
-# f=open('majlis.txt','r')
+# f=open('dilras.txt','r')
 # j=f.read()
 # print(j)
 # f.close()
 
 
-# f=open('shahana.txt','r')
+# f=open('dilras.txt','r')
 # for i in f:
 #     print(i)
 # f.close()
 
 
-# f=open('majlis.txt','a')                        #append
-# d=f.write('\n welcome')
+# f=open('dilras.txt','a')                        #append
+# d=f.write('welcome')
 # print(d)
 # f.close()
 
 
 
 # import os
-# os.remove('majlis.txt')
+# os.remove('docto.txt')
 
 # f=open('sreya.txt','x')
 # f.close()
@@ -88,3 +87,19 @@
 # d=f.write('\n welcome')
 # print(d)
 # f.close()
+
+
+# x = [1, 2, 3]
+# y = x
+# y.append(4)
+# print(x)
+
+# lst = [10, 20, 30, 40, 50]
+# print(lst[-2::-1])
+
+
+count = 1  # Start from 1
+
+while count <= 5:  # Run the loop as long as count is 5 or less
+    print(count)   # Print the current value of count
+    count += 1     # Increment count by 1

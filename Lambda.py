@@ -8,7 +8,7 @@
 # print(list(b))
 
 # for i in range(31):
-#     if i%2==1:
+#     if i%2==0:
 #         print(i)
 
 
@@ -16,9 +16,9 @@
 # b=filter(lambda x: x%2==1,a)
 # print(list(b))
 
-# a=[1,2,3,4,5]
-# b=map(lambda x: x**2,a)
-# print(list(b))
+a=[1,2,3,4,5]
+b=map(lambda x: x**3,a)
+print(list(b))
 
 
 # from functools import reduce

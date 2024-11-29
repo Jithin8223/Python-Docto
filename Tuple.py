@@ -1,10 +1,10 @@
-a=('jithin','subuhan','adarsh',100,200,100)
+# a=('jithin','subuhan','adarsh',100,200,100)
 # print(a)
 # print(type(a))
 
-b=list(a) 
-b.append('sajal')
-print(b)
+# b=list(a) 
+# b.append('sajal')
+# print(b)
 
 # print(c)               
 # c=b.append('abhi')
@@ -24,10 +24,11 @@ print(b)
 
 
 
-# a = ('jithin', 'subuhan', 'adarsh', 100, 200)
-# b = a + ('jinu',)
-# print(b)
-# print(type(a))
+a = ('jithin', 'subuhan', 'adarsh', 100, 200)
+b = a + ('jinu',)
+print(b)
+print(type(a))
+
 
 
 # a=('dsfd','fgh',67)

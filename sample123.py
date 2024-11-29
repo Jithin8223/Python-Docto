@@ -1,0 +1,10 @@
+# a=['adarsh',25,'rizwan',22,.6,'jithin','jithin']
+# a.append('jithin')
+# a.insert(1,'jithin')
+# a[1]='apple'
+# print(a)
+# a.pop(2)
+# a.remove('adarsh')
+# print(len(a))
+# b=a.index('rizwan')
+# print(a)

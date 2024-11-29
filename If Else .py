@@ -83,14 +83,12 @@
 # else:
 #     print('failed')    
 
-
-# a=input('enter username')
-# b=int(input('enter password'))
-# if a=='swetha2000' or b==1234:
-#     print('welcome')
-# else:
-#     print('access denied')
-
+a=input('enter username')
+b=int(input('enter password'))
+if a=='swetha2000' and b==1234:
+    print('welcome')
+else:
+    print('access denied')
 
 # a=input('enter you name')
 # b=int(input('enter your reg'))
@@ -114,13 +112,13 @@
 #      print ('failed')  
 
 
-a=input('enter user name')
-b=int(input('enter passsword'))
+# a=input('enter user name')
+# b=int(input('enter passsword'))
 
-if a=='adarsh' and b==123:
-    print('welcome')
-else:
-    print('sorry')
+# if a=='adarsh' and b==123:
+#     print('welcome')
+# else:
+#     print('sorry')
 
 
 # a=int(input('enter the age of rasheed'))

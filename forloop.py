@@ -11,17 +11,17 @@
 #     i += 1  # Increment i by 1 in each iteration to avoid an infinite loop
 
 
-# Initialize variables
-i = 1
-total = 0
+# # Initialize variables
+# i = 1
+# total = 0
 
-# Simple while loop to add numbers from 1 to 5
-while i <= 5:
-    total += i
-    i += 1
+# # Simple while loop to add numbers from 1 to 5
+# while i <= 5:
+#     total =+ i
+#     i += 1
 
-# Output the result
-print(total)
+# # Output the result
+# print(total)
 
 
 
@@ -65,10 +65,7 @@ print(total)
 
 
 
-# i = 1
-# while i < 6:
-#   print(i)
-# i += 1
+
 
 
 
@@ -108,3 +105,30 @@ print(total)
 # value = a[5][0]
 
 # value
+
+
+# i=4
+# while i<=5:
+#     print(i)
+#     i +=1
+
+
+# i=1
+# total=0
+# while i<=5:
+#     total+=i
+#     i+=1
+# print(total)
+
+# i=1
+# total=0
+# while i<=8:
+#     total+=i
+#     i+=1
+# print(total)
+
+i = 10
+while i > 0:
+    print(i)
+    i -= 1
+

@@ -29,12 +29,12 @@
 
 
 
-p=int(input("enter price"))
-r=int(input("rate"))
-t=int(input("time"))
+# p=int(input("enter price"))
+# r=int(input("rate"))
+# t=int(input("time"))
 
-si=(p*r*t)/3
-print(si)
+# si=(p*r*t)/3
+# print(si)
 
 
 # a=input("enter the name")
@@ -66,9 +66,9 @@ print(si)
 
 
 
-# a = 'sky is blue'
-# c=' '.join(a.split()[::-1])
-# print(c)
+a = 'sky is blue'
+c=' '.join(a.split()[::-1])
+print(c)
 
 
 

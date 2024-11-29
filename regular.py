@@ -1,4 +1,4 @@
-#match
+# match
 
 # import re                                                   
 # pattern="good"
@@ -20,12 +20,11 @@
 # #findall
 
 # import re                                                   
-# pattern="jithin"
+# pattern="you"
 # b=re.findall(pattern,"hello how are you ,where are you from,'how old are you")
 # print(b)
 # c=len(b)
 # print(c)
-
 
 # import re                                                   
 # pattern = "are"
@@ -38,7 +37,7 @@
 
 
 # import re
-# str="hey prabhu jithin who are you"
+# str="hey prabhu dilras who are you"
 # pattern="prabhu"
 # b=re.sub(pattern,"hari ram",str)
 # print(b)
@@ -57,3 +56,4 @@ text = "apple, orange;banana grape|melon"
 pattern = r'[,\s;|]+'
 split_text = re.split(pattern, text)
 print(split_text)
+
