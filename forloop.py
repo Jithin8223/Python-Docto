@@ -29,8 +29,8 @@
 # print(type(a))
 
 
-# for i in range (6):
-#     print(i)
+# for i in range (100):
+#     print('Athira')
 
 # for i in range(10):
 #      print('hello')
@@ -62,10 +62,6 @@
 
 # a=2.5
 # print(type(a))
-
-
-
-
 
 
 
@@ -113,12 +109,7 @@
 #     i +=1
 
 
-# i=1
-# total=0
-# while i<=5:
-#     total+=i
-#     i+=1
-# print(total)
+
 
 # i=1
 # total=0
@@ -127,8 +118,92 @@
 #     i+=1
 # print(total)
 
-i = 10
-while i > 0:
-    print(i)
-    i -= 1
 
+# count = 0
+
+# while count < 5:
+#     count += 1
+#     print(count) 
+
+# i = 0
+# while i < 6:
+#     print('Athira')
+#     i += 1
+
+
+# a = []
+# n = int(input('Enter the range: '))
+# i = 0
+# while i < 5:
+#     k = int(input('Enter the value: '))
+#     a.append(k)
+#     i += 1
+# print(a)
+
+# sum = 0
+# i = 0
+# while i < len(a):
+#     sum += a[i]
+#     i += 1
+
+# print('Your Total is', sum)
+
+
+# a = []
+# n = int(input('Enter the range: '))
+
+# # Collect values
+# i = 0
+# while i < n:
+#     a.append(int(input('Enter the value: ')))
+#     i += 1
+
+# # Sum values
+# sum = 0
+# i = 0
+# while i < n:
+#     sum += a[i]
+#     i += 1
+
+# print('Your Total is', sum)
+
+
+
+# import turtle
+# t=turtle.Turtle()
+# color = ['red', 'blue', 'green', 'yellow', 'purple']
+
+# for color in color:
+#     t.color(color)
+#     t.forward(100)
+#     t.right(144)
+#     t.forward(100)
+# turtle.done()
+
+
+
+
+
+# import turtle
+
+# # VIBGYOR colors
+# colors = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"]
+
+# t = turtle.Turtle()
+# t.width(10)
+# t.speed(0)
+# turtle.bgcolor("black")
+
+# # Draw semi-circles for each color
+# radius = 150
+# for color in colors:
+#     t.penup()
+#     t.goto(0, -radius)
+#     t.setheading(0)
+#     t.pendown()
+#     t.color(color)
+#     t.circle(radius, 180)
+#     radius -= 10 # Decrease radius for next arc
+
+# turtle.hideturtle()
+# turtle.done()

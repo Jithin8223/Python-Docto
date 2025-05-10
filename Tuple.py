@@ -1,9 +1,11 @@
-# a=('jithin','subuhan','adarsh',100,200,100)
+# a=('jithin','subuhan','adarsh',100,200,100,3.5,3j)
+# a.append('jithin')
 # print(a)
 # print(type(a))
 
 # b=list(a) 
-# b.append('sajal')
+# b.append('cyber')
+# print(type(b))
 # print(b)
 
 # print(c)               
@@ -23,11 +25,11 @@
 # print(b)
 
 
-
 a = ('jithin', 'subuhan', 'adarsh', 100, 200)
 b = a + ('jinu',)
 print(b)
 print(type(a))
+
 
 
 
@@ -41,3 +43,16 @@ print(type(a))
 
 # b=list(a)
 # b.append('adarsh')
+
+
+
+# a={'athira':21}
+# print(type(a))
+
+
+
+# tuple1 = (1, 2, 3)
+# tuple2 = (4, 5, 6)
+# result = tuple1 + tuple2
+# print(result)
+# print(type(result))

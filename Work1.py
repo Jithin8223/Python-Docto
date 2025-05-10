@@ -28,17 +28,16 @@
 #     s=s+1
 # print(s)
 
+
 # a = [1,1,1,2,2,2,3,3,4,4,4,5,5]
 # count=0
 # k=len(a)
 # b=int(input("enter element"))
 # for i in range (k):
-
-
-    
 #     if a[i]==b:
 #         count=count+1
 # print("The element", b, "occurs", count, "times.")    
+
 
 
 # a=[]
@@ -88,7 +87,7 @@
 #     print(x,"is deficient")
 
 
-# 1    what is variables
+# 1   what is variables
 # 2   data types
 # 3   what is python
 # 4   what is numeric data types
@@ -102,9 +101,6 @@
 
 
 
-# import random
-# random_number = random.randint(1, 14)
-# print("Random Number:", random_number)
 
 
 
@@ -161,7 +157,7 @@
 
 
 # str1 = "Listen"
-# str2 = "SiLeNt!!"
+# str2 = "SiLeNt"
 
 # # Remove spaces and convert to lowercase
 # str1 = str1.replace(" ", "").lower()
@@ -174,20 +170,134 @@
 #     print(f'"{str1}" and "{str2}" are not anagrams.')
 
 
-s = "abcabcbb"
-char_index_map = {}  # Dictionary to store the last index of each character
-left = 0  # Left pointer of the window
-max_length = 0  # Variable to store the length of the longest substring
+# s = "abcabcbb"
+# char_index_map = {}  # Dictionary to store the last index of each character
+# left = 0  # Left pointer of the window
+# max_length = 0  # Variable to store the length of the longest substring
 
-for right in range(len(s)):
-    # If character is already in the current window, move the left pointer
-    if s[right] in char_index_map and char_index_map[s[right]] >= left:
-        left = char_index_map[s[right]] + 1
+# for right in range(len(s)):
+#     # If character is already in the current window, move the left pointer
+#     if s[right] in char_index_map and char_index_map[s[right]] >= left:
+#         left = char_index_map[s[right]] + 1
 
-    # Update the last index of the current character
-    char_index_map[s[right]] = right
+#     # Update the last index of the current character
+#     char_index_map[s[right]] = right
 
-    # Calculate the length of the current window
-    max_length = max(max_length, right - left + 1)
+#     # Calculate the length of the current window
+#     max_length = max(max_length, right - left + 1)
 
-print(max_length)  # Output: 3
+# print(max_length)  # Output: 3
+
+
+
+# num=int(input("Enter the number to be multiplied: "))
+
+# n=11
+# for i in range(1,n):
+#     res = i*num
+#     print(i, "*",  num, "=", res, end="")
+#     print()
+
+
+# vehicle = []
+
+# while True:
+#     choice = int(input("1 for Add vehicle\n 2 for Display vehicle"))
+#     if choice == 1:
+#         no = int(input("Vehicle number: "))
+#         name = input("Name: ")
+#         price = int(input("Price: "))
+#         wheels = int(input("No. of Wheels: "))
+#         list1 = []
+#         list1.append(no)
+#         list1.append(name)
+#         list1.append(price)
+#         list1.append(wheels)
+#         vehicle.append(list1)
+#     if choice == 2:
+#         num = int(input("Number of wheels"))
+
+#         for i in vehicle:
+#             if i[3] == num:
+#                 print(i[0])
+#                 print(i[1])
+#                 print(i[2])
+#                 print(i[3])
+
+
+# adj = ["red", "big", "tasty"]
+# fruits = ["apple", "banana", "cherry"]
+
+# for x in adj:
+#   for y in fruits:
+#     print(x, y)
+
+
+# numbers = [2, 8, 12, 4, 6]
+# largest = numbers[0]
+# for num in numbers:
+#     if num > largest:
+#         largest = num
+# print("Largest number:", largest)
+
+# num = 785691
+# sorted_num = int("".join(sorted(str(num), reverse=True)))
+# print(sorted_num)
+
+
+# s = "hello world"
+# s = s.replace("o", "")
+# print(s)
+ 
+# Input: A number from the user
+# num = input("Enter an integer: ")
+
+# # Loop through digits from 0 to 9 and count occurrences
+# for digit in "0123456789":
+#     count = num.count(digit)
+#     print(f"{digit}: {count}")
+
+# num = input("Enter an integer: ")
+# for digit in "0123456789":
+#     count = num.count(digit)
+#     if count > 0:  
+#         print(f"{digit}: {count}")
+
+
+# import random
+# random_number = random.randint(1, 17)
+# print("Random Number:", random_number)
+
+
+# a="10000000"
+# print(a)
+
+
+# a=10
+# b=20
+
+# a, b = b, a
+# print("a:", a)
+# print("b:", b)  
+
+
+
+class Animal:
+    def speak(self):
+        print("Generic animal sound")
+
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+class Cat(Animal):
+    def speak(self):
+        print("Meow!")
+
+animal = Animal()
+dog = Dog()
+cat = Cat()
+
+animal.speak()  # Output: Generic animal sound
+dog.speak()     # Output: Woof!
+cat.speak()     # Output: Meow!

@@ -1,31 +1,31 @@
-# f=open('dilras.html','x')
+# f=open('cyberpark.txt','x')
 # f.close()
 
-# f=open('dilras.txt','w')
-# f.write(' mandaatha karyam')
+# f=open('rafna.txt','w')
+# f.write('welcome')
 # f.close()
 
-# f=open('dilras.txt','r')
+# f=open('rabitha.txt','r')
 # j=f.read()
 # print(j)
 # f.close()
 
 
-# f=open('dilras.txt','r')
+# f=open('rabitha.txt','r') 
 # for i in f:
 #     print(i)
 # f.close()
 
 
-# f=open('dilras.txt','a')                        #append
-# d=f.write('welcome')
+# f=open('rafna.txt','a')                        #append
+# d=f.write('python')
 # print(d)
 # f.close()
 
 
 
 # import os
-# os.remove('docto.txt')
+# os.remove('rabitha.txt')
 
 # f=open('sreya.txt','x')
 # f.close()
@@ -98,8 +98,8 @@
 # print(lst[-2::-1])
 
 
-count = 1  # Start from 1
+# count = 1  # Start from 1
 
-while count <= 5:  # Run the loop as long as count is 5 or less
-    print(count)   # Print the current value of count
-    count += 1     # Increment count by 1
+# while count <= 5:  # Run the loop as long as count is 5 or less
+#     print(count)   # Print the current value of count
+#     count += 1     # Increment count by 1

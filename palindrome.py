@@ -1,10 +1,3 @@
-# a=input("enter string")
-# k=len(a)
-# n=(a[::-1])
-# if n==a:
-#     print('palindrome')
-# else:
-#     print('not')
 
 # a=input('enter number')
 # b=a[::-1]
@@ -14,7 +7,7 @@
 #     print('sorry')
 
 # a=121
-# b=a[::-1]
+# b=(a[::-1])
 # if a==b:
 #     print('yes')
 # else:
@@ -37,15 +30,19 @@
 #     print("sorry")
 
 
-a=int(input("enter number"))
-b=0
-n=a
-while(a>0):
-    s=a%10
-    b=b*10+s
-    a=a//10
-if n==b:
-    print('palindrome')
-else:
+# a=int(input("enter number"))
+# b=0
+# n=a
+# while(a>0):
+#     s=a%10
+#     b=b*10+s
+#     a=a//10
+# if n==b:
+#     print('palindrome')
+# else:
     
-    print('not')
+#     print('not')
+
+
+
+

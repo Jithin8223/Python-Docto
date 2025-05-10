@@ -1,10 +1,10 @@
-# a=23
-# b=25
-# c=a+b
-# print(c)
+a=23
+b=25
+c=a+b
+print(c)
 
-# a=input('enter your name')
-# print('hello',a)
+#a=input('enter your name')
+#print('hello',a)
 
 # a=int(input("enter your first number"))                             
 # b=int(input("enter your Second number"))
@@ -66,9 +66,26 @@
 
 
 
-a = 'sky is blue'
-c=' '.join(a.split()[::-1])
-print(c)
+# a = 'sky is blue'
+# c=' '.join(a.split()[::-1])
+# print(c)
+
+
+#a=int(input("enter your first number"))
+#b=int(input("enter your second number"))
+#c=a+b
+#print('Your answer is ',c)
+# a=3
+# b=50000
+# c=100
+# d=5
+# f=a*b/c
+# print(f*d)
 
 
 
+
+
+
+a=10
+print(type(a))

@@ -1,10 +1,10 @@
 # //right angle triangle 
 
-# n=int(input("enter the range"))
-# for i in range(n):
-#     for j in range(n-i):
-#         print('+',end=" ")
-#     print()
+n=int(input("enter the range"))
+for i in range(n):
+    for j in range(n-i):
+        print('j',end=" ")
+    print()
 
 #// square
 
@@ -50,7 +50,7 @@
 # for i in range(n):
 #     for j in range(n):
 #         if j==0 or i==n-1 or i==0 or j==n-1:
-#             print(" ",end=" ")
+#             print("*",end=" ")
 #         else:
 #             print(" ",end=" ")    
 #     print()
@@ -91,24 +91,43 @@
 # a = int(input('Enter the range: '))
 # for i in range(1, a + 1):
 #     spaces = ' ' * (a - i)
-#     stars = 'a' * (2 * i - 1)
+#     stars = '*' * (2 * i - 1)
 #     print(spaces + stars)
 
 
-    # n = int(input("Enter the range: "))
-    # for i in range(1, n+1):
-    #     for j in range(1, n+1):
-    #         if i == 1 or i == n or j == 1 or j == n:  
-    #             print(j, end=" ")  
-    #         else:
-    #             print(" ", end=" ") 
-    #     print() 
+# n = int(input("Enter the range: "))
+# for i in range(1, n+1):
+#         for j in range(1, n+1):
+#             if i == 1 or i == n or j == 1 or j == n:  
+#                 print(j, end=" ")  
+#             else:
+#                 print(" ", end=" ") 
+#         print() 
 
-n = int(input("Enter the range: "))
-for i in range(n):
-    for j in range(n):
-        if i == 0 or i == n - 1 or j == 0 or j == n - 1:
-            print(j + 1, end=" ")
-        else:
-            print(" ", end=" ")
-    print()
+# n = int(input("Enter the range: "))
+# for i in range(n):
+#     for j in range(n):
+#         if i == 0 or i == n - 1 or j == 0 or j == n - 1:
+#             print(j + 1, end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
+
+
+# n=int(input("enter the range: "))
+# for i in range(n):
+#     print('*',end=" ")
+# print()
+
+
+# n = int(input("Enter the range: "))
+# print(("* " * n + "\n") * n)
+
+
+# n = 7
+# for i in range(1, n + 1, 2):  
+#     spaces = (n - i) // 2
+#     print(" " * 4 * spaces, end="")  
+#     for j in range(1, i + 1):
+#         print(f"{j:<4}", end="")  
+#     print()

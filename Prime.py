@@ -1,14 +1,14 @@
 
-# start = 1
-# end = 10
-# prime=[]
-# for i in range(start,end+1):
-#     for j in range(2,i):
-#         if i % j ==0:
-#             break
-#     else:
-#         prime.append(i)
-# print(prime)
+start = 1
+end = 10
+prime=[]
+for i in range(start,end+1):
+    for j in range(2,i):
+        if i % j ==0:
+            break
+    else:
+        prime.append(i)
+print(prime)
 
 
 # def is_prime(n):
@@ -50,6 +50,7 @@
 #             print(num)
 
 
+
 # num = int(input("Enter a number: "))
 
 # if num > 1:
@@ -62,13 +63,13 @@
 # else:
 #     print("Not a prime")
 
-start = int(input("Enter the start of the range: "))
-end = int(input("Enter the end of the range: "))
+# start = int(input("Enter the start of the range: "))
+# end = int(input("Enter the end of the range: "))
 
-for num in range(start, end + 1):
-    if num > 1:  
-        for i in range(2, num):
-            if num % i == 0:
-                break
-        else:
-            print(num)
+# for num in range(start, end + 1):
+#     if num > 1:  
+#         for i in range(2, num):
+#             if num % i == 0:
+#                 break
+#         else:
+#             print(num)

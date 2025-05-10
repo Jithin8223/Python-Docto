@@ -1,19 +1,20 @@
-# a={'safwan' : 23,'sifrath' : 23, 'ramiz' : 23,'jithin' :26}     
-# a.update({'adarsh':26})
-# print(a)                                                                  
+# a={'safwan' : 23,'sifrath' : 23, 23:'rafna',100:200,27:'rabitha'}     
+# a.insert({'cyber':23})  
+# print(a)         
+
+
 # a.popitem()
 # a.pop('sifrath')
-# a['jithin']=21
-
+# a['jithin']=23
 # print(a)
 
-# for i in a.keys():
+
 # for i in a.values():
-    # print(i)
+# for i in a.values():
+#     print(i)
     # print(i)
 
-
-# n=a.keys()
+# n=a.values()
 # print(n)
 
 # a['mat']=100        # to change value
@@ -39,8 +40,8 @@
 # print(jithin)
 
 
-# a.update({'jithin p' : 26})
-# print(a)
+# jithin.update({'jithin p' : 26})
+# print(jithin)
 
 # jithin.popitem()          # to remove key value pair from last
 # print(jithin)
@@ -61,7 +62,7 @@
 # print(a[1])
 
 # a={1:{'name' : 'amal','num' : 9876543210, 'email' : 'amal@gmail.com'},2:{'name' : 'jithin', 'num' : 9517368420,'email' : 'jithin@gmail.com'}}
-# print(a[2]) 
+# print(a[1]) 
 
 # # to fetch value in a dictionary 
 
@@ -88,7 +89,7 @@
 #     c=int(input('enter value'))
 #     a.update({b:c})
 # print(a)
-# sum=0
+# # sum=0
 # for i in a.values():
 #     sum = sum+i
 # print(sum)
@@ -119,11 +120,10 @@
 
 
 # a={1:{'name' : 'amal','num' : 9876543210, 'email' : 'amal@gmail.com'},2:{'name' : 'jithin', 'num' : 9517368420,'email' : 'jithin@gmail.com'}}
-# print(a[1])
+# print(a[2])
 
 
 # from collections import OrderedDict
-
 # # Original dictionary
 # a = {'safwan': 23, 'sifrath': 23, 'ramiz': 23, 'jithin': 26}
 
@@ -136,7 +136,6 @@
 
 # # Convert back to OrderedDict or dict
 # a = OrderedDict(a_list)
-
 # print(dict(a))
 
 
@@ -147,5 +146,17 @@
 
 
 
+
+
+
+# a={'safwan' : 23,'sifrath' : 23, 'ramiz' : 23,'jithin' :26} 
+# a.update({'Sifrath':24})
+# a['sifrath']=20
+# b=a.values()
+# print(b)
+
+
+
+# print(a)
 
 

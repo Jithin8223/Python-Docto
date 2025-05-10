@@ -10,3 +10,5 @@ if n==b:
     print('armstrong')
 else:
     print('not')
+
+# The above code is for checking whether a number is armstrong or not.

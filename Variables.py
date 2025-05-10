@@ -16,6 +16,8 @@
 # a=int(input('enter your age'))
 # print('your age is',a)
 
+
+
 # a={}
 # b=type(a)
 # print(b)
@@ -47,8 +49,10 @@
 # c=a/b
 # print(c)
 
+
 # a='abhishek'
 # print(a[::-1])
+
 
 
 # a='safwan',38
@@ -66,3 +70,40 @@
 # print(type(a))
 # print(a)
 
+# a=('jithin','sandeep',5,'amal','jinu',10,'adarsh',100,0.5)
+# print(a)
+
+# a='jithin'
+# print(a[1:5])
+# print(a[0:5:3])
+# print(a[1])
+# print(a[::-1])
+# print(a[3::-1])
+# print(a[3::])
+# print(a[::-1]) 
+# print(a[2::])
+
+
+#a=10+10
+#print(a)
+# a='rafna'
+# b=' m'
+# c=a+b
+# print(c)
+
+
+# a=3j
+# print(type(a))
+
+
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+
+if num1 >= num2 and num1 >= num3:
+    print(f"The largest number is: {num1}")
+elif num2 >= num1 and num2 >= num3:
+    print(f"The largest number is: {num2}")
+else:
+    print(f"The largest number is: {num3}")
