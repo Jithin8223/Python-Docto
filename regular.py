@@ -40,11 +40,7 @@
 
 
 
-# import re                                                   
-# pattern = "are"
-# matches = re.findall(pattern, "hello how are you ,where are you from,'how old are you")
-# output = {pattern: len(matches)}
-# print(output)
+pp
 
 
 # #to substitute / edit or change

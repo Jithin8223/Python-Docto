@@ -8,19 +8,17 @@
 
 
 
-
 # a = input('enter the word: ')   
 # k = len(a)
 # vowels = "aeiou"
 # vowel_list = []
-
 # for i in range(k):
 #     if a[i] in vowels:
 #         k += 1
 #         vowel_list.append(a[i])
-
 # # print(k, 'vowels:')
 # print(vowel_list)
+
 
 
 # a = input('enter the word: ')
@@ -30,4 +28,3 @@
 #     if char in vowels:
 #         count =+ 1
 # print(count, 'vowels')
-

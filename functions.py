@@ -113,5 +113,3 @@ home1(6, 5)
 # # Call the function
 # print_global_value()
 
-
-const a=['jithin','ADARSH']

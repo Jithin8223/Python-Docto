@@ -249,7 +249,7 @@
 # s = s.replace("o", "")
 # print(s)
  
-# Input: A number from the user
+# Input: A number from the userde
 # num = input("Enter an integer: ")
 
 # # Loop through digits from 0 to 9 and count occurrences
@@ -265,7 +265,7 @@
 
 
 # import random
-# random_number = random.randint(1, 17)
+# random_number = random.randint(1, 38)
 # print("Random Number:", random_number)
 
 
@@ -282,22 +282,45 @@
 
 
 
-class Animal:
-    def speak(self):
-        print("Generic animal sound")
+# class Animal:
+#     def speak(self):
+#         print("Generic animal sound")
 
-class Dog(Animal):
-    def speak(self):
-        print("Woof!")
+# class Dog(Animal):
+#     def speak(self):
+#         print("Woof!")
 
-class Cat(Animal):
-    def speak(self):
-        print("Meow!")
+# class Cat(Animal):
+#     def speak(self):
+#         print("Meow!")
 
-animal = Animal()
-dog = Dog()
-cat = Cat()
+# animal = Animal()
+# dog = Dog()
+# cat = Cat()
 
-animal.speak()  # Output: Generic animal sound
-dog.speak()     # Output: Woof!
-cat.speak()     # Output: Meow!
+# animal.speak()  
+# dog.speak()     
+# cat.speak()
+
+
+# for i in range(5):
+#     print('jithin')
+
+# a=["jithin","aparna","ajay","nandana"]
+
+
+# x=  int (input("enter a number"))
+# y= int(input ("enter a number"))
+# print (x+y)
+
+
+# import turtle as t
+
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)

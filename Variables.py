@@ -5,7 +5,8 @@
 # print(a)
 
 
-
+# a="anandika"
+# print("you name is", a)
 
 
 # a=input('enter your name')
@@ -33,11 +34,13 @@
 
 
 
+# a = input('Enter the name of mom: ')
+# b = int(input('Enter the age of father: '))
+# print("Mom's name (str):", a)
+# print("Father's age (int):", b)
+# print("your name is",a,"your age is",b)
 
-# a=input('enter the name of mom ')
-# b=input('enter the name of father')
-# c=a+b
-# print(c)
+
 
 # a=input('enter the name')
 # b=int(input('enter age'))
@@ -48,6 +51,7 @@
 # b=45
 # c=a/b
 # print(c)
+
 
 
 # a='abhishek'
@@ -97,13 +101,33 @@
 
 
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = float(input("Enter third number: "))
+# num1 = float(input("Enter first number: "))
+# num2 = float(input("Enter second number: "))
+# num3 = float(input("Enter third number: "))
 
-if num1 >= num2 and num1 >= num3:
-    print(f"The largest number is: {num1}")
-elif num2 >= num1 and num2 >= num3:
-    print(f"The largest number is: {num2}")
-else:
-    print(f"The largest number is: {num3}")
+# if num1 >= num2 and num1 >= num3:
+#     print(f"The largest number is: {num1}")
+# elif num2 >= num1 and num2 >= num3:
+#     print(f"The largest number is: {num2}")
+# else:
+#     print(f"The largest number is: {num3}")
+
+
+
+# x = 10  # Global variable
+
+# def show():
+#     print(x)  # Accessing global variable
+
+# show()
+# print(x)  # Also accessible here
+
+
+
+
+# def show():
+#     y = 5  # Local variable
+#     print(y)
+
+# show()
+# print(y)  # This will cause an error: NameError: name 'y' is not defined

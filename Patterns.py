@@ -1,10 +1,10 @@
 # //right angle triangle 
 
-n=int(input("enter the range"))
-for i in range(n):
-    for j in range(n-i):
-        print('j',end=" ")
-    print()
+# n=int(input("enter the range"))
+# for i in range(n):
+#     for j in range(n-i):
+#         print('j',end=" ")
+#     print()
 
 #// square
 
@@ -131,3 +131,20 @@ for i in range(n):
 #     for j in range(1, i + 1):
 #         print(f"{j:<4}", end="")  
 #     print()
+
+
+
+# import turtle as ben
+# colors=['red']
+# ben.speed(10)
+# ben.pensize(5)
+
+
+# for i in range(24):
+#     ben.color(colors[i % len(colors)])
+#     for j in range(4):
+#         ben.forward(200)
+#         ben.left(90)
+#     ben.left(15)
+# ben.done()
+      

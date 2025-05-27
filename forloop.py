@@ -15,12 +15,12 @@
 # i = 1
 # total = 0
 
-# # Simple while loop to add numbers from 1 to 5
+# # # Simple while loop to add numbers from 1 to 5
 # while i <= 5:
 #     total =+ i
 #     i += 1
 
-# # Output the result
+# # # # Output the result
 # print(total)
 
 
@@ -56,7 +56,7 @@
 # a=int(input('enter your number'))
 # sum=1
 # for i in range(1,a+1):
-#     sum=sum*i
+#     sum=sum+i
 # print(sum)
 
 
@@ -194,7 +194,7 @@
 # t.speed(0)
 # turtle.bgcolor("black")
 
-# # Draw semi-circles for each color
+# # # Draw semi-circles for each color
 # radius = 150
 # for color in colors:
 #     t.penup()
@@ -207,3 +207,17 @@
 
 # turtle.hideturtle()
 # turtle.done()
+
+
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+
+# for i in range(a,b):  
+#     c = a + b
+#     print(c)
+
+# count = 1
+# while count <= 5:
+#     print(count)
+#     count =count+1

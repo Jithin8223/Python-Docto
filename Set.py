@@ -1,8 +1,8 @@
-# a={'jithin','subuhan','adarsh',100,200,100,'jiju','jinu','jiju'}
+a={'jithin','subuhan','adarsh',100,200,100,'jiju','jinu','jiju'}
 # a.add('cyberpark')
 # a.update('Cyberpark')
 # a.remove('jithin')
-# print(a)
+print(a)
 
 # a.insert(2,'sneha')
 # print(a)   # it is unorderd , NO duplicates

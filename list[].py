@@ -1,10 +1,14 @@
-# a=['jithin','Reshma','Vismaya','Riya',100,2.5,3j]
+a=['jithin','Kunju',10,2.5,3j,10]
+# a.count('jithin')
+# print(type(a))
 # a.append('Cyberpark')
 # a.insert(1,'Cyberpark')
 # a[1]='Cyberpark'
-# a.pop(2)
+# a.pop()
 # a.remove('jithin')
-# print(a)
+# a.clear()
+# print(len(a))
+print(a)
 
 # print(a)
 # print (a[::-1])
@@ -23,6 +27,7 @@
 
 # a=4.5
 # print(type(a))
+
 # import random
 # print(random.randint(1,25))
 
@@ -162,25 +167,25 @@
 # print('Your Total is ',sum)
 
 
-n = []  
-# a = input('Enter the range: ')
+# n = []  
+# # a = input('Enter the range: ')
 
-for i in range(3):
-    k = input('Enter a string, number, or complex number: ')  
-    try:
+# for i in range(3):
+#     k = input('Enter a string, number, or complex number: ')  
+#     try:
         
-        if 'j' in k:
-            value = complex(k)
-        elif '.' in k:
-            value = float(k)  
-        else:
-            value = int(k)  
-    except ValueError:
+#         if 'j' in k:
+#             value = complex(k)
+#         elif '.' in k:
+#             value = float(k)  
+#         else:
+#             value = int(k)  
+#     except ValueError:
         
-        value = k
-    n.append(value)  
+#         value = k
+#     n.append(value)  
 
-print(n)
+# print(n)
 
 # my_list = [1, 2, 3]
 # my_list.extend([4, 5]) 

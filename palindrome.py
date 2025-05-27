@@ -1,5 +1,5 @@
 
-# a=input('enter number')
+# a=str(input('enter str'))
 # b=a[::-1]
 # if a==b:
 #     print('palendrome')
@@ -30,19 +30,23 @@
 #     print("sorry")
 
 
-# a=int(input("enter number"))
-# b=0
-# n=a
-# while(a>0):
-#     s=a%10
-#     b=b*10+s
-#     a=a//10
-# if n==b:
-#     print('palindrome')
-# else:
-    
-#     print('not')
+a=int(input("enter number"))
+b=0
+n=a
+while(a>0):
+    s=a%10
+    b=b*10+s
+    a=a//10
+if n==b:
+    print('palindrome')
+else:
+    print('not')
 
 
+# a = [1, 2, 3]
+# b = a
+# b.append(4)
+# print(a)
 
-
+# x = 5
+# print(x + 3 * 2)

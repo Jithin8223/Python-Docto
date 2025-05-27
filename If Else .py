@@ -6,6 +6,7 @@
 #     print('False')
 
 
+
 # a=int(input('enter your age'))
 # if a>18:
 #     print('adult')
@@ -35,6 +36,7 @@
 #     print('adult')
 # else:
 #     print('not eligible')
+
 
 
 # a=int(input('enter number'))

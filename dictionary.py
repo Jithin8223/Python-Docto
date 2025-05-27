@@ -1,15 +1,24 @@
-# a={'safwan' : 23,'sifrath' : 23, 23:'rafna',100:200,27:'rabitha'}     
+a={'safwan' : 23,'sifrath' : 23, 23:'rafna',100:200,27:'rabitha'}     
 # a.insert({'cyber':23})  
 # print(a)         
 
+# a={"jithin":100}
+# a={100:100}
+# a={100:"jithin"}
+
+
+
+# a={"jithin":"jithin",100:"jithin"}
 
 # a.popitem()
 # a.pop('sifrath')
-# a['jithin']=23
+
+# a.update({"Sifrath":100})
 # print(a)
 
 
-# for i in a.values():
+# for i in a.keys():
+    
 # for i in a.values():
 #     print(i)
     # print(i)

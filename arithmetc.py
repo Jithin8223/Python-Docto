@@ -1,7 +1,7 @@
-a=23
-b=25
-c=a+b
-print(c)
+# a=23
+# b=25
+# c=a+b
+# print(c)
 
 #a=input('enter your name')
 #print('hello',a)
@@ -13,6 +13,11 @@ print(c)
 # e=a-b
 # f=a/b
 # print(c,d,e,f)
+
+# a = int(input())
+# b = int(input())
+# print(a + b, a * b, a - b, a / b)
+
 
 # a=int(input("enter your first number"))
 # b=int(input("enter your Second number"))
@@ -29,11 +34,11 @@ print(c)
 
 
 
-# p=int(input("enter price"))
+# p=int(input("enter principle amount "))
 # r=int(input("rate"))
 # t=int(input("time"))
 
-# si=(p*r*t)/3
+# si=(p*r*t)/100
 # print(si)
 
 
@@ -87,5 +92,5 @@ print(c)
 
 
 
-a=10
-print(type(a))
+# a=10
+# print(type(a))
