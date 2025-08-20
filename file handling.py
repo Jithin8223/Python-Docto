@@ -56,10 +56,11 @@
 
 
 
-# import random
+import random
 
-# random_number = random.randint(1, 101)
-# print(f"The randomly picked number is: {random_number}")
+random_number = random.randint(1, 53)
+print(f"The randomly picked number is: {random_number}")
+
 
 
 

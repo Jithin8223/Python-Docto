@@ -1,4 +1,4 @@
-a={'safwan' : 23,'sifrath' : 23, 23:'rafna',100:200,27:'rabitha'}     
+# a={'safwan' : 23,'sifrath' : 23, 23:'rafna',100:200,27:'rabitha'}     
 # a.insert({'cyber':23})  
 # print(a)         
 
@@ -132,20 +132,20 @@ a={'safwan' : 23,'sifrath' : 23, 23:'rafna',100:200,27:'rabitha'}
 # print(a[2])
 
 
-# from collections import OrderedDict
-# # Original dictionary
-# a = {'safwan': 23, 'sifrath': 23, 'ramiz': 23, 'jithin': 26}
+from collections import OrderedDict
+# Original dictionary
+a = {'safwan': 23, 'sifrath': 23, 'ramiz': 23, 'jithin': 26}
 
-# # Convert to OrderedDict to insert at a specific position
-# a = OrderedDict(a)
+# Convert to OrderedDict to insert at a specific position
+a = OrderedDict(a)
 
-# # Convert to a list of items and insert the new key-value pair at the desired position (e.g., position 2)
-# a_list = list(a.items())
-# a_list.insert(2, ('new_key', 30))  # Insert at index 2
+# Convert to a list of items and insert the new key-value pair at the desired position (e.g., position 2)
+a_list = list(a.items())
+a_list.insert(2, ('new_key', 30))  # Insert at index 2
 
-# # Convert back to OrderedDict or dict
-# a = OrderedDict(a_list)
-# print(dict(a))
+# Convert back to OrderedDict or dict
+a = OrderedDict(a_list)
+print(dict(a))
 
 
 # a = {'safwan': 23, 'sifrath': 23, 'ramiz': 23, 'jithin': 26}
@@ -169,3 +169,14 @@ a={'safwan' : 23,'sifrath' : 23, 23:'rafna',100:200,27:'rabitha'}
 # print(a)
 
 
+# original dictionary
+a = {'safwan': 23, 'sifrath': 23, 23: 'rafna', 100: 200, 27: 'rabitha'}
+
+# updating dictionary with new values
+a.update({
+    'new_key': 'new_value',
+    'safwan': 50,       # existing key updated
+    200: 'fresh entry'  # integer key added
+})
+
+print(a)

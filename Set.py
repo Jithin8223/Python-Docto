@@ -2,7 +2,7 @@ a={'jithin','subuhan','adarsh',100,200,100,'jiju','jinu','jiju'}
 # a.add('cyberpark')
 # a.update('Cyberpark')
 # a.remove('jithin')
-print(a)
+# print(a)
 
 # a.insert(2,'sneha')
 # print(a)   # it is unorderd , NO duplicates
@@ -25,11 +25,11 @@ print(a)
 # print(type(a))
 
 
-# set_a = {1, 2, 3, 4}
-# set_b = set([3, 4, 5, 6])
-# union_set = set_a | set_b
-# union_set = set_a.union(set_b)
-# print(union_set)  
+set_a = {1, 2, 3, 4}
+set_b = set([3, 4, 5, 6])
+union_set = set_a | set_b
+union_set = set_a.union(set_b)
+print(union_set)  
 
 
 # intersection_set = set_a & set_b

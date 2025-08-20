@@ -1,7 +1,7 @@
-f=lambda a: a*a
+# f=lambda a: a*a
 
-a=lambda x,y: x*y
-print(a(2,3))
+# a=lambda x,y: x*y
+# print(a(2,3))
 
 # a = lambda x, y: x * y
 # x = int(input("Enter the first number"))

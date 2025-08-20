@@ -1,4 +1,7 @@
-a=['jithin','Kunju',10,2.5,3j,10]
+# a=['jithin','Kunju',10,2.5,3j,10]
+
+
+
 # a.count('jithin')
 # print(type(a))
 # a.append('Cyberpark')
@@ -7,8 +10,9 @@ a=['jithin','Kunju',10,2.5,3j,10]
 # a.pop()
 # a.remove('jithin')
 # a.clear()
+# a.pop()
 # print(len(a))
-print(a)
+# print(a)
 
 # print(a)
 # print (a[::-1])
@@ -29,15 +33,41 @@ print(a)
 # print(type(a))
 
 # import random
-# print(random.randint(1,25))
+# print(random.randint(1,58))
 
 # a=[]
 # for i in range(5):
 #     c=input('enter data')
 #     a.append(c)
+
+# a = []
+# for i in range(5):
+#     c = input('Enter data: ')
+#     if c.isdigit():
+#         a.append(int(c))
+#     else:
+#         a.append(c)
 # print(a)
 
+# a = []
+# for i in range(5):
+#     c = input('Enter data: ')
+#     try: a.append(eval(c))
+#     except: a.append(c)
+# print(a)
 
+# a = []
+# for i in range(5):
+#     c = input('Enter data: ')
+#     if c.isdigit():
+#         a.append(int(c))
+#     elif '.' in c:
+#         a.append(float(c))
+#     elif 'j' in c:
+#         a.append(complex(c))
+#     else:
+#         a.append(c)
+# print(a)0
 
 # a=[]
 # a.append('jithin')
@@ -108,6 +138,8 @@ print(a)
 # print(a[::-1])
 # print(a[3::])
 # print(a[3::-1])         #reverse
+
+
 
 # print(a[1:5])         #slice
 
@@ -191,3 +223,8 @@ print(a)
 # my_list.extend([4, 5]) 
 # print(my_list)  
 
+# a=[10,20,30,40,50]
+# sum=0
+# for i in a:
+#     sum=sum+i
+# print(sum)

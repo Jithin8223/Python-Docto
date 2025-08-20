@@ -14,11 +14,7 @@
 # else:
 #     print("Sorry, 123 not found")
 
-
-
 # Search
-
-
 
 # import re                                                   
 # pattern="good"
@@ -27,8 +23,7 @@
 # else:
 #     print("sorry")
 
-
-# # #findall
+#findall
 
 # import re                                                   
 # pattern="you"
@@ -36,12 +31,6 @@
 # print(b)
 # c=len(b)
 # print(c)
-
-
-
-
-pp
-
 
 # #to substitute / edit or change
 

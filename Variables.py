@@ -40,24 +40,17 @@
 # print("Father's age (int):", b)
 # print("your name is",a,"your age is",b)
 
-
-
 # a=input('enter the name')
 # b=int(input('enter age'))
 # print('hello',a,'welcome to the world of python,your age is',b)
-
 
 # a=19
 # b=45
 # c=a/b
 # print(c)
 
-
-
 # a='abhishek'
 # print(a[::-1])
-
-
 
 # a='safwan',38
 # print(a)
@@ -65,10 +58,6 @@
 # a='apple'
 # print(type(a))
 # print(a)
-
-
-
-
 
 # a="jithin"
 # print(type(a))
@@ -131,3 +120,10 @@
 
 # show()
 # print(y)  # This will cause an error: NameError: name 'y' is not defined
+
+
+
+list=[1,2,3,4,5]
+
+list.append("syam")
+print(list)
