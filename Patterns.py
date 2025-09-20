@@ -124,13 +124,13 @@
 # print(("* " * n + "\n") * n)
 
 
-# n = 7
-# for i in range(1, n + 1, 2):  
-#     spaces = (n - i) // 2
-#     print(" " * 4 * spaces, end="")  
-#     for j in range(1, i + 1):
-#         print(f"{j:<4}", end="")  
-#     print()
+n = 7
+for i in range(1, n + 1, 2):  
+    spaces = (n - i) // 2
+    print(" " * 4 * spaces, end="")  
+    for j in range(1, i + 1):
+        print(f"{j:<4}", end="")  
+    print()
 
 
 
